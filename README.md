@@ -12,7 +12,7 @@ Create any perfect animation loop, run it, test it, record it.
 * Provides a calculated progress value.
 * Code contains by default a DEMO animation.
 
-# How To Use?
+# How To?
 Create loop, test it, record it.
 * Change SETTINGS to your liking.
 * Set TOTAL_FRAMES to a value, which fits the needs of your animation.
