@@ -16,7 +16,7 @@ Create loop, test it, record it.
 * In the function draw(float progress), put your animaton code.
 * The loop starts with a progress value of 0.0 and ends with 1.0-frame. (Never reaches 1.0, since this is the beginning of the next cycle)
 * When satisfied with the result, switch RECORD = true.
-* The outputed images are your animation frame by frame. Now you can create a gif, mp4, or any other file type from the images.
+* The outputed images are your animation frame by frame. Now you can create a gif, mp4, mov, webm, or any other file type from the just generated images.
 
 # Versions
 * Processing with java.
