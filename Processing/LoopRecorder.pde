@@ -52,7 +52,7 @@ void draw(float progress) {
   fill(200);
   textSize(width*0.04);
   textAlign(CENTER, CENTER);
-  text("frame: "+nf(float(counter % TOTAL_FRAMES))+"/"+TOTAL_FRAMES, 0, height*0.1);
+  text("frame: "+nf(float(counter % TOTAL_FRAMES))+"/"+(TOTAL_FRAMES-1), 0, height*0.1);
   // name
   fill(200);
   textSize(width*0.04);
