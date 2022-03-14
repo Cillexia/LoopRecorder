@@ -48,6 +48,11 @@ void draw(float progress) {
   textSize(width*0.06);
   textAlign(CENTER, CENTER);
   text("progress: "+nf(progress, 0, 4), 0, 0);
+  // frame
+  fill(200);
+  textSize(width*0.04);
+  textAlign(CENTER, CENTER);
+  text("frame: "+nf(float(counter % TOTAL_FRAMES))+"/"+TOTAL_FRAMES, 0, height*0.1);
   // name
   fill(200);
   textSize(width*0.04);
