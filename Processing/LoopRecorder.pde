@@ -3,7 +3,7 @@
 * Website: www.cillexia.net
 */
 
-// ========== SETTINGS ==========
+// ========== RECORD SETTINGS ==========
 static final int TOTAL_FRAMES = 240;    // Total frames to record
 static boolean RECORD = false;          // record
 static final String NAME = "anima";     // name
