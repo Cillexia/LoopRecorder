@@ -8,9 +8,9 @@ Create any perfect animation loop, run it, test it, record it.
 * Provides a calculated progress value.
 * Code contains by default a DEMO animation.
 
-#### How To Use?
+# How To Use?
 Create loop, test it, record it.
-* Change settings to your liking.
+* Change SETTINGS to your liking.
 * Set TOTAL_FRAMES to a value, which fits the needs of your animation.
 * With NAME you can change the name of the output folder, as well as each frame's name. 
 * In the function draw(float progress), put your animaton code.
