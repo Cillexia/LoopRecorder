@@ -3,32 +3,32 @@
 * Website: www.cillexia.net
 */
 
-// ========== Settings ==========
-int totalFrames = 240;    // Total frames to record
-boolean record = false;   // record
-String name = "anima";    // name
-String format = "png";    // formate
+// ========== SETTINGS ==========
+static final int TOTAL_FRAMES = 240;    // Total frames to record
+static boolean RECORD = false;          // record
+static final String NAME = "anima";     // name
+static final String FORMAT = "png";     // formate
 
-int counter = 0;          // counts frames
+int counter = 0;                        // counts frames
 
 void setup() {
   size(400, 400);  // image size
 }
 
 //** File name: folder/name.format */
-String fileName() { return name+"/"+name+nf(counter,4)+"."+format; }
+final String fileName() { return NAME+"/"+NAME+nf(counter,4)+"."+FORMAT; }
 
 void draw() {
-  final float progress = record ? float(counter) / totalFrames : float(counter % totalFrames) / totalFrames;
+  final float progress = RECORD ? float(counter) / TOTAL_FRAMES : float(counter % TOTAL_FRAMES) / TOTAL_FRAMES;
   draw(progress);
-  if (record && counter == 0) { println("Start to record: "+ name); }
-  if (record) { saveFrame(fileName()); }
+  if (RECORD && counter == 0) { println("Start to record: "+ NAME); }
+  if (RECORD) { saveFrame(fileName()); }
   counter++;
-  if (record) { println("Save: "+ counter +"/"+totalFrames); }
-  if (record && counter == totalFrames) { println("DONE"); exit(); }
+  if (RECORD) { println("Save: "+ counter +"/"+TOTAL_FRAMES); }
+  if (RECORD && counter == TOTAL_FRAMES) { println("DONE"); exit(); }
 }
 
-/** Draws each anima frame with progress [0.0...1.0] */
+/** Draws each anima frame with progress [0.0...1.0-frame] (Never reaches 1.0, since this is the beginning of the next cycle) */
 void draw(float progress) {
   // DEMO
   background(20);
