@@ -28,3 +28,9 @@ Create loop, test it, record it.
 # cillexia
 Find out more about cillexia on our
 Website: www.cillexia.net
+
+# Smooth loops with high resolution and fps?
+If you want to play your loop in high resolution and with lots of fps, you may want to make a mp4 or mov.
+On many platforms this will run automatically as a loop, repeating the video when it is over.
+https://user-images.githubusercontent.com/92103579/158170011-2aa0f41e-9282-49cf-9acb-2619b439ecdc.mov
+
